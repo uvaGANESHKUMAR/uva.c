@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int a[10];
 int i, j,n,t,m;
@@ -25,5 +24,5 @@ m=n-2;
 {
 printf("%d\n",a[m]);
 }
-getch();
+  return 0;
 }
