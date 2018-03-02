@@ -5,6 +5,7 @@
 int main(void) 
 
 {
+	clrscr();
 
 	char str[50];
 
@@ -31,5 +32,6 @@ int main(void)
 	printf("\nno of lines is=%d",count);
 
 	return 0;
+	getch():
 
 }
