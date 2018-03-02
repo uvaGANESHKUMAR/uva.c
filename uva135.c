@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include<string.h>
-int main() {
+int main()
+{
+	clrscr():
 	char str[50];
 	int l=strlen(str);
 	int count=0;
@@ -13,4 +15,5 @@ int main() {
 	}
 	printf("The total no of numeric characters in the String are %d",count);
 	return 0;
+	getch();
 }
