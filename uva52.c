@@ -1,8 +1,9 @@
 #include <stdio.h>
- 
+#include <conio.h>
 int main(void) 
 {
 	int num;
+	clrscr();
 	printf("\n enter the number from 1 to 10");
 	scanf("%d",&num);
 	switch(num)
@@ -42,4 +43,5 @@ int main(void)
 	}
  
 	return 0;
+	getch();
 }
